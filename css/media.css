@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+*{
+    font-family: 'Nunito', sans-serif;; 
+    padding: 0px; 
+    margin: 0px; 
+    box-sizing: border-box; 
+    text-decoration: none; 
+    list-style: none; 
+}
+
+@media (max-width:850px) {
+    header{
+        background-color: #131313;
+        border-bottom: solid 1px #1b1b1b ;
+    }
+    header #allforheader .order{display: none;}
+    header .list .ullist .lilist > a:link {
+        padding: 15px 20px;
+        display: block;
+    }
+    header .list .ullist .lilist{
+        margin: 0;
+    }
+    header .list{
+        background-color: #131313;
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        left: 0;
+        height: 321px;
+        z-index: 1;
+    }
+    header .list .ullist{
+       display: block;
+    }
+}
