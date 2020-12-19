@@ -42,6 +42,18 @@ header .suglogo, .suglogo img{
     width:80px;
     height:57.33333px;
 }
+/* NAV BAR IMG */
+header .navbar{
+    position: absolute;
+    right:0;
+    order: 3;
+    height: 38px;
+    margin: 21px 31px;
+    display: none;
+}
+header .navbar img{
+    width: 40px;
+}
 /* LIST*/
 header .list{
     width: 50%;
@@ -139,7 +151,7 @@ main #boxall{
     left:0; right: 0; top:0; bottom:0;
 }
 main #boxall .logo img{
-    width:500px;
+    width:100%;
 }
 /* SOCIAL MEDIA */
 main #boxall .socialmedia{

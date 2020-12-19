@@ -8,8 +8,15 @@
     text-decoration: none; 
     list-style: none; 
 }
-
+@media (max-width:1200px){
+    body{
+        background-size: auto;
+    }
+}
 @media (max-width:850px) {
+    body{
+        background-size: auto;
+    }
     header{
         background-color: #131313;
         border-bottom: solid 1px #1b1b1b ;
@@ -28,11 +35,31 @@
         position: absolute;
         width: 100%;
         top: 80px;
-        left: 0;
-        height: 321px;
+        left:-100%;
+        height: auto;
         z-index: 1;
+        transition: 0.5s;
+    }
+    header .navbar:focus ~ .list{
+        left:0;
     }
     header .list .ullist{
        display: block;
+    }
+    header .list .ullistdown .lilistdown a:link{
+        display: block;
+    }
+    header .list .ullistdown{
+        width: 100%;
+        margin-top:0px;
+    }
+    header .list .ullistdown .lilistdown{
+        margin-top: 0;
+    }
+    header .navbar{
+        display: block;
+    }
+    main #boxall{
+        width:55%;
     }
 }
