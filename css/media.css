@@ -59,7 +59,36 @@
     header .navbar{
         display: block;
     }
+    /*
+    header .ullist .mysrvc:hover ~ .ullistdown{
+        height:0px;
+    }
+    header .ullist .mysrvc:focus ~ .ullistdown{
+        height:200px;
+    }
+    */
     main #boxall{
         width:55%;
+        height:30%;
+    }
+    main #boxall .socialmedia .singlesocial{
+        height:37px;
+    }
+    main #boxall .socialmedia .singlesocial img{
+        width:17px;
+    }
+
+    /* footer */
+    footer #boxfooter{
+        display: block;
+    }
+    #boxfooter .bzns_contact li{
+        margin-left: 0;
+        margin-right: 25px;
+        text-decoration: underline;
+    }
+    #boxfooter .bzns_contact ul{
+        margin: 0;
+        margin-bottom: 20px;
     }
 }
