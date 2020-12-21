@@ -77,7 +77,8 @@
     main #boxall .socialmedia .singlesocial img{
         width:17px;
     }
-
+}
+@media (max-width:700px){
     /* footer */
     footer #boxfooter{
         display: block;
