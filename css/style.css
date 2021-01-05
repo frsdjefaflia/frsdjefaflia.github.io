@@ -96,9 +96,10 @@ header .ullist .ullistdown:hover{
 header .list .ullistdown .lilistdown{
     margin-top:20px;
 }
-header .list .ullistdown .lilistdown a:link{
+header .list .ullistdown .lilistdown a{
     background-color: #131313;
     color: #ffffff;
+    transition:0.5s;
     /*pointer-events:none;*/
 }
 header .list .ullistdown .lilistdown a:hover{background-color: #272727;}
