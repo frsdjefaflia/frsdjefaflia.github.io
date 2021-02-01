@@ -195,6 +195,11 @@ footer #boxfooter{
     color: #ffffff;
     font-size: 13px;
 }
+/* COPYRIGHT LINK */
+#boxfooter .cop .copyright{color: #ffffff;}
+#boxfooter .cop .copyright:hover{text-decoration: underline;}
+#boxfooter .cop .copyright:visited{color: #ffffff;}
+/************/
 #boxfooter .bzns_contact ul{
     margin: 3px 0;
 }
