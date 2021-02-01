@@ -43,7 +43,7 @@ header .suglogo, .suglogo img{
     width:80px;
     height:57.33333px;
 }
-/* NAV BAR IMG */
+/* NAVBAR IMG */
 header .navbar{
     position: absolute;
     right:0;
@@ -55,7 +55,9 @@ header .navbar{
 header .navbar img{
     width: 40px;
 }
-/* LIST*/
+/**************/
+
+/* LIST */
 header .list{
     width: 50%;
 }
@@ -66,13 +68,13 @@ header .list .ullist{
 header .list .ullist .lilist{
     margin:29px 0;
 }
-header .list .ullist .lilist > a:link{
+header .list .ullist .lilist a:link{
     color:#ffffff;
     padding: 29px 20px;
     transition: background-color 0.5s;
 }
-header .list .ullist .lilist > a:hover{background-color:#272727;}
-header .list .ullist .lilist > a:visited{color: #ffffff;}
+header .list .ullist .lilist a.lnklst:hover{background-color:#272727;}
+header .list .ullist .lilist a.lnklst:visited, a.mysrvc:visited{color: #ffffff;}
 /* LIST DOWN*/
 header .downlist img{
     width: 15px;
@@ -87,9 +89,15 @@ header .list .ullistdown{
     overflow: hidden;
     z-index: 1;
 }
+header .ullist .mysrvc{
+    cursor:not-allowed;
+}
+header .ullist a.mysrvc:hover{background-color:transparent;}
+/*
 header .ullist .mysrvc:hover ~ .ullistdown{
     height:200px;
 }
+*/
 header .ullist .ullistdown:hover{
     height:auto;
     overflow: unset;
@@ -117,9 +125,10 @@ header .list .ullistdown .lilistdown a.desilogo:link{
     padding: 10px 20px;
     padding-right: 69px;
 }
+/***************/
 /* BUTTON ORDER NOW */
 header #allforheader .order{width:50%;}
-header #allforheader .order a.btnorder:link{
+header #allforheader .order a.btnorder{
     float: right;
     margin: 17px 0;
     border: 2px solid #ffffff;
@@ -127,15 +136,17 @@ header #allforheader .order a.btnorder:link{
     padding: 10px 20px;
     color: #ffffff;
     transition:color, background-color 0.5s;
+    cursor:not-allowed;
 }
 header #allforheader .order a.btnorder:visited{
     color: #ffffff;
 }
-header #allforheader .order a.btnorder:hover{
+/*header #allforheader .order a.btnorder:hover{
     background-color: #BFBFBF;
     border: 2px solid #BFBFBF;
     color:#000000;
 }
+*/
 /* MAIN */
 main{
     width:100%;
