@@ -13,7 +13,7 @@
 
 /************************/
 body{
-    background-image: url(../IMG/background.png);
+    background-image: url(../img/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     width:100%;
@@ -43,7 +43,7 @@ header .suglogo, .suglogo img{
     width:80px;
     height:57.33333px;
 }
-/* NAVBAR IMG */
+/* NAVBAR img */
 header .navbar{
     position: absolute;
     right:0;
