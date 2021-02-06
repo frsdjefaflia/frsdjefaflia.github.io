@@ -1,1 +1,166 @@
 @charset "utf-8";
+*{
+    font-family: 'Nunito', sans-serif;
+    padding: 0px; 
+    margin: 0px; 
+    box-sizing: border-box; 
+    text-decoration: none; 
+    list-style: none; 
+    -webkit-tap-highlight-color:transparent;
+}
+
+header{
+    width:100%;
+    max-width:1920px;
+    margin: 0 auto;
+    height:80px;
+    background-color: #131313;
+}
+header #allforheader{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+header .suglogo{
+    float: left;
+    margin: 11.5px 0;
+}
+header .suglogo, .suglogo img{
+    width:80px;
+    height:57.33333px;
+}
+/* NAVBAR img */
+header .navbar{
+    position: absolute;
+    right:0;
+    order: 3;
+    height: 38px;
+    margin: 21px 31px;
+    display: none;
+}
+header .navbar img{
+    width: 40px;
+}
+/**************/
+
+/* LIST */
+header .list{
+    width: 50%;
+}
+header .list .ullist{
+    display: flex;
+    justify-content: space-evenly;
+}
+header .list .ullist .lilist{
+    margin:29px 0;
+}
+header .list .ullist .lilist a:link{
+    color:#ffffff;
+    padding: 29px 20px;
+    transition: background-color 0.5s;
+}
+header .list .ullist .lilist a.lnklst:hover{background-color:#272727;}
+header .list .ullist .lilist a.lnklst:visited, a.mysrvc:visited{color: #ffffff;}
+/* LIST DOWN*/
+header .downlist img{
+    width: 15px;
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+header .list .ullistdown{
+    position: absolute;
+    margin-top: 21px;
+    height: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+header .ullist .mysrvc{
+    cursor:not-allowed;
+}
+header .ullist a.mysrvc:hover{background-color:transparent;}
+/*
+header .ullist .mysrvc:hover ~ .ullistdown{
+    height:200px;
+}
+*/
+header .ullist .ullistdown:hover{
+    height:auto;
+    overflow: unset;
+}
+header .list .ullistdown .lilistdown{
+    margin-top:20px;
+}
+header .list .ullistdown .lilistdown a{
+    background-color: #131313;
+    color: #ffffff;
+    transition:0.5s;
+    /*pointer-events:none;*/
+}
+header .list .ullistdown .lilistdown a:hover{background-color: #272727;}
+header .list .ullistdown .lilistdown a:active{background-color: #444444;}
+header .list .ullistdown .lilistdown a:visited{color: #ffffff;}
+header .list .ullistdown .lilistdown a.prosite:link{
+    padding: 10px 20px;
+}
+header .list .ullistdown .lilistdown a.sectest:link{
+    padding: 10px 20px;
+    padding-right: 31px;
+}
+header .list .ullistdown .lilistdown a.desilogo:link{
+    padding: 10px 20px;
+    padding-right: 69px;
+}
+/***************/
+/* BUTTON ORDER NOW */
+header #allforheader .order{width:50%;}
+header #allforheader .order a.btnorder{
+    float: right;
+    margin: 17px 0;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #ffffff;
+    transition:color, background-color 0.5s;
+    cursor:not-allowed;
+}
+header #allforheader .order a.btnorder:visited{
+    color: #ffffff;
+}
+/*header #allforheader .order a.btnorder:hover{
+    background-color: #BFBFBF;
+    border: 2px solid #BFBFBF;
+    color:#000000;
+}
+*/
+
+/* MAIN */
+main{
+    position: relative; 
+    max-width: 1920px;
+    margin:0 auto;
+    width:100%;
+    z-index: -1;
+}
+main .list_about{
+    background-color:#131313;
+    height:350px;
+    width:60px;
+    border-radius:10px;
+    position: fixed;
+    top:0;
+    bottom:0;
+    margin: auto;
+    left:40px;
+}
+MAIN .info_about{
+    width:70%;
+    background-color: #dff3ee;
+    height:1000px;
+    margin: 0 auto;
+    width:100%;
+}
+main .info_about .info_box{
+    width:70%;
+    margin: 0 auto;
+}
