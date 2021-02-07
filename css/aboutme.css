@@ -141,22 +141,25 @@ main{
     margin:0 auto;
     width:100%;
     z-index: -1;
+    background-color: #dff3ee;
 }
+/* LISTE */
 main .list_about{
     background-color:#131313;
-    height:350px;
-    width:60px;
-    border-radius:10px;
+    height:335px;
     position: fixed;
     top:0;
     bottom:0;
     margin: auto;
     left:40px;
+    border-radius:10px;
+    padding:5px;
+    width:69px;
+    /*overflow: hidden;*/
 }
-MAIN .info_about{
+main .info_about{
     width:70%;
-    background-color: #dff3ee;
-    height:1000px;
+    
     margin: 0 auto;
     width:100%;
 }
@@ -164,3 +167,44 @@ main .info_about .info_box{
     width:70%;
     margin: 0 auto;
 }
+/************/
+main .list_about .boxtitle{
+    display:flex;
+    align-items: center;
+    background-color:#131313;
+    padding:5px;
+    border-radius:10px;
+    /*width:150px;*/
+    width:64px;
+    overflow: hidden;
+    margin:5px 0;
+    transition: width 0.2s;
+}
+main .list_about .boxtitle:hover{width:150px;}
+main .list_about .boxtitle p{
+    display: inline;
+    height:22px;
+    color:#ffffff;
+    margin-left:8px;
+}
+main .list_about .boxtitle p:hover{color: #d6d6d6;}
+main .list_about .boxtitle .boximg{
+    width: 50px;
+    min-width:50px;
+    height: 50px;
+    position: relative;
+    border-radius: 10px;
+}
+main .list_about .boxtitle .boxtxt{
+    padding: 14px 0;
+    width: 90px;
+    min-width:90px;
+    background-color:#131313;
+}
+main .list_about .boxtitle .boximg:hover{background-color: #303030;}
+main .list_about .boxtitle .boximg img{
+    position: absolute;
+    top:0; bottom:0; left:0; right:0; margin:auto;
+    width:30px;
+}
+/****** END *******/
