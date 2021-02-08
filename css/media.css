@@ -8,7 +8,7 @@
     text-decoration: none; 
     list-style: none; 
 }
-@media (max-width:1200px){
+@media /* HOME */ (max-width:1200px){
     body{
         background-size: auto;
     }
