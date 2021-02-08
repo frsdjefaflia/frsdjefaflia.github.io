@@ -145,7 +145,7 @@ main{
 /* list */
 main .list_about{
     /*background-color:#131313;*/
-    height:339px;
+    height:370px;
     position: fixed;
     top:0;
     bottom:0;
@@ -172,7 +172,7 @@ main .list_about .boxtitle{
     /*width:150px;*/
     width:60px;
     overflow: hidden;
-    margin:5px 0;
+    margin:10px 0;
     transition: width 0.2s;
 } main .list_about .boxtitle:hover{width:150px;}
   main .list_about .boxtitle:hover p{display:block;}
