@@ -12,7 +12,7 @@
 
 
 /************************/
-body{
+#all{
     background-image: url(../img/background.png);
     background-size: cover;
     background-repeat: no-repeat;

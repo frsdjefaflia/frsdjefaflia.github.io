@@ -9,6 +9,7 @@
     -webkit-tap-highlight-color:transparent;
 }
 
+/**********************/
 header{
     width:100%;
     max-width:1920px;
@@ -133,7 +134,6 @@ header #allforheader .order a.btnorder:visited{
     color:#000000;
 }
 */
-
 /* MAIN */
 main{
     position: relative; 
@@ -174,9 +174,9 @@ main .list_about .boxtitle{
     overflow: hidden;
     margin:10px 0;
     transition: width 0.2s;
-} main .list_about .boxtitle:hover{width:150px;}
+} main .list_about .boxtitle:hover{width:150px;background-color: #202020;}
   main .list_about .boxtitle:hover p{display:block;}
-
+  main .list_about .boxtitle:hover .boxtxt{background-color: #202020;}
 main .list_about .boxtitle p{
     height:22px;
     color:#ffffff;
