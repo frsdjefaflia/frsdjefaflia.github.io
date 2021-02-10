@@ -12,13 +12,13 @@
 /**********************/
 header{
     width:100%;
-    max-width:1920px;
     margin: 0 auto;
     height:80px;
     background-color: #131313;
 }
 header #allforheader{
     width: 90%;
+    max-width:1920px;
     display: flex;
     margin: 0 auto;
 }
@@ -137,10 +137,9 @@ header #allforheader .order a.btnorder:visited{
 /* MAIN */
 main{
     position: relative; 
-    max-width: 1920px;
     margin:0 auto;
     width:100%;
-    background-color: #dff3ee;
+    background-color: #F1FAEE;
 }
 /* list */
 main .list_about{
@@ -154,13 +153,7 @@ main .list_about{
     border-radius:10px;
     padding:5px;
     width:69px;
-    /*overflow: hidden;*/
-}
-main .info_about{
-}
-main .info_about .info_box{
-    width:70%;
-    margin: 0 auto;
+    z-index:100;
 }
 /************/
 main .list_about .boxtitle{
@@ -204,3 +197,40 @@ main .list_about .boxtitle .boximg img{
     width:30px;
 } 
 /****** END *******/
+
+/* ALL BOX FOR INFO */
+main .info_about{
+    width:100%;
+    max-width:1920px;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+}
+main .info_about .backaboutme{
+    /*position: absolute;
+    right:-70px;
+    top:100px;*/
+    margin-left:12%;
+    width: 1000px;
+    margin-top:95px;
+}
+main .info_about .backaboutme img{
+    width:960px;
+}
+main .info_about .box_aboutme{
+    width:70%;
+    max-width:1920px;
+    margin:0 auto;
+    padding:60px 0;
+}
+main .info_about .box_aboutme .myinfo{
+    position: absolute;
+    margin-top:35px;
+}
+main .info_about .box_aboutme .myinfo h1{
+    font-size:90px;
+    font-weight: bold;
+}
+main .info_about .box_aboutme .myinfo p{
+    font-size:23px;  
+}
