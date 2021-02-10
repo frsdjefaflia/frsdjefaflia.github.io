@@ -13,7 +13,8 @@
 
 /************************/
 #all{
-    background-image: url(../img/background.png);
+    /*background-image: url(../img/background.png);*/
+    background-color: #100d0d;
     background-size: cover;
     background-repeat: no-repeat;
     width:100%;
@@ -28,7 +29,7 @@ header{
     max-width:1920px;
     margin: 0 auto;
     height:80px;
-    background-color: #13131391;
+    background-color: #202020;
 }
 header #allforheader{
     width: 90%;
@@ -73,7 +74,7 @@ header .list .ullist .lilist a:link{
     padding: 29px 20px;
     transition: background-color 0.5s;
 }
-header .list .ullist .lilist a.lnklst:hover{background-color:#272727;}
+header .list .ullist .lilist a.lnklst:hover{background-color:#303030;}
 header .list .ullist .lilist a.lnklst:visited, a.mysrvc:visited{color: #ffffff;}
 /* LIST DOWN*/
 header .downlist img{
