@@ -19,16 +19,8 @@
     }
     header{
         background-color: #202020;
-        border-bottom: solid 1px #1b1b1b ;
     }
     header #allforheader .order{display: none;}
-    header .list .ullist .lilist > a:link {
-        padding: 15px 20px;
-        display: block;
-    }
-    header .list .ullist .lilist{
-        margin: 0;
-    }
     header .list{
         background-color: #202020;
         display: block;
@@ -40,33 +32,22 @@
         z-index: 1;
         transition: 0.5s;
     }
-    header .navbar:focus ~ .list{
-        left:0;
-    }
-    header .list .ullist{
-       display: block;
-    }
-    header .list .ullistdown .lilistdown a:link{
+    header .list .ullist .lilist > a:link {
+        padding: 15px 20px;
         display: block;
     }
-    header .list .ullistdown{
-        width: 100%;
-        margin-top:0px;
+    header .list .ullist .lilist{
+        margin: 0;
     }
-    header .list .ullistdown .lilistdown{
-        margin-top: 0;
+    header .navbar:focus ~ .list{
+        left:0;
     }
     header .navbar{
         display: block;
     }
-    /*
-    header .ullist .mysrvc:hover ~ .ullistdown{
-        height:0px;
+    header .list .ullist{
+       display: block;
     }
-    header .ullist .mysrvc:focus ~ .ullistdown{
-        height:200px;
-    }
-    */
     main #boxall{
         width:55%;
         height:30%;
@@ -77,6 +58,26 @@
     main #boxall .socialmedia .singlesocial img{
         width:17px;
     }
+    /*header .list .ullistdown .lilistdown a:link{
+        display: block;
+    }
+    header .list .ullistdown{
+        width: 100%;
+        margin-top:0px;
+    }
+    header .list .ullistdown .lilistdown{
+        margin-top: 0;
+    }
+
+    /*
+    header .ullist .mysrvc:hover ~ .ullistdown{
+        height:0px;
+    }
+    header .ullist .mysrvc:focus ~ .ullistdown{
+        height:200px;
+    }
+    */
+    
 }
 @media (max-width:700px){
     /* footer */
@@ -91,5 +92,12 @@
     #boxfooter .bzns_contact ul{
         margin: 0;
         margin-bottom: 20px;
+    }
+    #boxfooter .bzns_contact .version{
+        text-decoration: none;
+        float: right;
+        top: 2px;
+        left:0;
+        margin: 0;
     }
 }

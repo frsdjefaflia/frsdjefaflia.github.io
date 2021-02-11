@@ -74,9 +74,11 @@ header .list .ullist .lilist a:link{
     padding: 29px 20px;
     transition: background-color 0.5s;
 }
-header .list .ullist .lilist a.lnklst:hover{background-color:#303030;}
+header .list .ullist .lilist a:hover{background-color:#303030;}
 header .list .ullist .lilist a.lnklst:visited, a.mysrvc:visited{color: #ffffff;}
+
 /* LIST DOWN*/
+/*
 header .downlist img{
     width: 15px;
     position: relative;
@@ -93,12 +95,10 @@ header .list .ullistdown{
 header .ullist .mysrvc{
     cursor:not-allowed;
 }
-header .ullist a.mysrvc:hover{background-color:transparent;}
-/*
 header .ullist .mysrvc:hover ~ .ullistdown{
     height:200px;
 }
-*/
+
 header .ullist .ullistdown:hover{
     height:auto;
     overflow: unset;
@@ -110,7 +110,6 @@ header .list .ullistdown .lilistdown a{
     background-color: #131313;
     color: #ffffff;
     transition:0.5s;
-    /*pointer-events:none;*/
 }
 header .list .ullistdown .lilistdown a:hover{background-color: #272727;}
 header .list .ullistdown .lilistdown a:active{background-color: #444444;}
@@ -125,8 +124,9 @@ header .list .ullistdown .lilistdown a.sectest:link{
 header .list .ullistdown .lilistdown a.desilogo:link{
     padding: 10px 20px;
     padding-right: 69px;
-}
-/***************/
+}*/
+/******* END LIST DOWN ********/
+
 /* BUTTON ORDER NOW */
 header #allforheader .order{width:50%;}
 header #allforheader .order a.btnorder{
@@ -229,3 +229,21 @@ footer #boxfooter{
     color: #ffffff;
     text-decoration: underline;
 }
+#boxfooter .bzns_contact .version{
+    color: #8f8f8f;
+    border:solid 1px #8f8f8f;
+    border-radius:3px;
+    padding:1px 2px;
+    font-size:9px;
+    position: relative;
+    bottom:3px;
+    left:3px;
+    transition:all 0.3s;
+    display: inline-block;
+}
+#boxfooter .bzns_contact .version:hover{
+    background-color: #ffffff; 
+    border:solid 1px #fff;
+    color: #000;
+}
+#boxfooter .bzns_contact .version a:visited{color: #fff;}
