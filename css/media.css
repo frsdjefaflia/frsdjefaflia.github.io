@@ -39,15 +39,15 @@
     header .list .ullist .lilist{
         margin: 0;
     }
-    header .navbar:focus ~ .list{
+    /*header .navbar:focus ~ .list{
         left:0;
-    }
+    }*/
     header .navbar{
         display: block;
     }
     header .list .ullist{
        display: block;
-       height:245px;
+       height:300px;
     }
     header .list .ullist .lilist a.orderbtn{
         border: solid 1px #fff;
@@ -64,8 +64,8 @@
         background-color: #fff;
     }
     header .list .ullist .lilist a.orderbtn:hover{
-        background-color:transparent;
-        color: #fff;;
+        background-color:#fff;
+        color: #000;
     }
     main #boxall{
         width:55%;

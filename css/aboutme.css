@@ -62,6 +62,7 @@ header .list .ullist .lilist a:link{
 }
 header .list .ullist .lilist a:hover{background-color:#303030;}
 header .list .ullist .lilist a.lnklst:visited, a.mysrvc:visited{color: #ffffff;}
+header .list .ullist .lilist a.orderbtn{display: none;}
 /* LIST DOWN*/
 /*
 header .downlist img{
