@@ -76,7 +76,7 @@ header .list .ullist .lilist a:link{
 }
 header .list .ullist .lilist a:hover{background-color:#303030;}
 header .list .ullist .lilist a.lnklst:visited, a.mysrvc:visited{color: #ffffff;}
-
+header .list .ullist .lilist a.orderbtn{display: none;}
 /* LIST DOWN*/
 /*
 header .downlist img{
@@ -137,17 +137,15 @@ header #allforheader .order a.btnorder{
     padding: 10px 20px;
     color: #ffffff;
     transition:color, background-color 0.5s;
-    cursor:not-allowed;
 }
 header #allforheader .order a.btnorder:visited{
     color: #ffffff;
 }
-/*header #allforheader .order a.btnorder:hover{
+header #allforheader .order a.btnorder:hover{
     background-color: #BFBFBF;
     border: 2px solid #BFBFBF;
     color:#000000;
 }
-*/
 /* MAIN */
 main{
     width:100%;

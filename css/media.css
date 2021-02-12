@@ -32,7 +32,7 @@
         z-index: 1;
         transition: 0.5s;
     }
-    header .list .ullist .lilist > a:link {
+    header .list .ullist .lilist a:link {
         padding: 15px 20px;
         display: block;
     }
@@ -47,6 +47,25 @@
     }
     header .list .ullist{
        display: block;
+       height:245px;
+    }
+    header .list .ullist .lilist a.orderbtn{
+        border: solid 1px #fff;
+        border-radius: 20px;
+        width: 120px;
+        margin-top: 15px;
+        margin-left: 11px;
+        padding: 11px;
+        text-align: center;
+        font-size: 15px;
+    }
+    header .list .ullist .lilist a.orderbtn:active{
+        color:#000;
+        background-color: #fff;
+    }
+    header .list .ullist .lilist a.orderbtn:hover{
+        background-color:transparent;
+        color: #fff;;
     }
     main #boxall{
         width:55%;
@@ -99,5 +118,9 @@
         top: 2px;
         left:0;
         margin: 0;
+    }
+    #boxfooter .bzns_contact .version:hover{
+        background-color:transparent;
+        color: #8f8f8f;
     }
 }
