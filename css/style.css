@@ -53,6 +53,7 @@ header .navbar{
     margin: 21px 31px;
     display: none;
 }
+header .navbar #close{display: none;}
 header .navbar img{
     width: 40px;
 }
