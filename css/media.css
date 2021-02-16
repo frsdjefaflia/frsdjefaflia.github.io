@@ -12,8 +12,11 @@
     body{
         background-size: auto;
     }
+    header .list .ullist .lilist a:link{
+        padding: 29px 15px;
+    }
 }
-@media (max-width:850px) {
+@media (max-width:1000px) {
     body{
         background-size: auto;
     }
@@ -47,13 +50,13 @@
     }
     header .list .ullist{
        display: block;
-       height:300px;
+       height:280px;
     }
     header .list .ullist .lilist a.orderbtn{
         border-radius: 20px;
         width: 120px;
-        margin-top: 15px;
-        margin-left: 11px;
+        margin-top: 10px;
+        margin-left:20px;
         padding: 11px;
         text-align: center;
         font-size: 15px;
