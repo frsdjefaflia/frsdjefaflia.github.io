@@ -33,7 +33,7 @@
         left:-100%;
         height: auto;
         z-index: 1;
-        transition: 0.5s;
+        transition: 0.4s;
     }
     header .list .ullist .lilist a:link {
         padding: 15px 20px;
@@ -93,7 +93,14 @@
         height:200px;
     }
     */
-    
+    /* ABOUT ME */
+    /*main .list_about{
+        transform: scale(0.7);
+        position: fixed;
+        bottom: 0;
+        right: 20px;
+    }
+    main .list_about .boxtitle:hover{width:60px;}*/
 }
 @media (max-width:700px){
     /* footer */
