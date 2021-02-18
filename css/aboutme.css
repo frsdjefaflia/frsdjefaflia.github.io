@@ -9,7 +9,28 @@
     -webkit-tap-highlight-color:transparent;
 }
 
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #F1FAEE; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #202020;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #303030; 
+  }
+
 /**********************/
+
 header{
     width:100%;
     margin: 0 auto;
