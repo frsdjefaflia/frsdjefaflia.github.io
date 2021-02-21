@@ -176,7 +176,6 @@ main .list_about{
     padding:5px;
     width:69px;
     z-index:100;
-    display:none;
 }
 /************/
 main .list_about .boxtitle{
@@ -218,7 +217,22 @@ main .list_about .boxtitle .boximg img{
     position: absolute;
     top:0; bottom:0; left:0; right:0; margin:auto;
     width:30px;
-} 
+}
+main .list_about #respoclick{
+    background-color:#131313;
+    position: relative;
+    height:50px;
+    width:30px;
+    left: 100%;
+    top: -97%;
+}
+main .list_about #respoclick img{
+    width:25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
 /****** END *******/
 
 /* ALL BOX FOR INFO */
