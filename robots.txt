@@ -1,0 +1,14 @@
+# Group 1
+User-agent: Googlebot
+Disallow: /404.html
+Allow: /
+# Group 2
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+# Group 3
+User-agent: Googlebot-Image
+Disallow: /
+
+Sitemap: https://frscodes.github.io/sitemap.xml
