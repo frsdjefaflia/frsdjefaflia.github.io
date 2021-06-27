@@ -52,6 +52,7 @@ main section a{
     padding: 10px 20px;
     transition: 0.3s;
     margin-top:40px;
+    background-color: #100d0d;
 }
 main section a:hover{
     color: #100d0d;
