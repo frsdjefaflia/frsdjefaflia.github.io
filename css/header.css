@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+*{
+    font-family: 'Nunito', sans-serif;
+    padding: 0px; 
+    margin: 0px; 
+    box-sizing: border-box; 
+    text-decoration: none; 
+    list-style: none; 
+    -webkit-tap-highlight-color:transparent;
+}
+
+/* HEADER */
+header{
+    width:100%;
+    margin: 0 auto;
+    height:80px;
+    background-color: #202020;
+}
+header .allforheader{
+    width: 90%;
+    max-width:1920px;
+    display: flex;
+    margin: 0 auto;
+}
+header .name-logo{
+    float: left;
+    margin: 11.5px 0;
+}
+header .name-logo, .name-logo img{
+    width:80px;
+    height:57.33333px;
+}
+/* NAVBAR img */
+header .navbar{
+    position: absolute;
+    right:0;
+    order: 3;
+    height:40px;
+    margin: 20px 31px;
+    display: none;
+}
+header .navbar i{
+    font-size: 40px;
+    color:#ffffff;
+}
+/**************/
+
+/* LIST */
+header .list{
+    width: 50%;
+}
+header .list .ullist{
+    display: flex;
+    justify-content: space-evenly;
+}
+header .list .ullist .lilist{
+    margin:29px 0;
+}
+header .list .ullist .lilist a:link{
+    color:#ffffff;
+    padding: 29px 20px;
+    transition: background-color 0.5s;
+}
+header .list .ullist .lilist a.lnklst:hover{background-color:#303030;}
+header .list .ullist .lilist a.lnklst:visited{color: #ffffff;}
+header .list .ullist .lilist a.orderbtn{display: none;}
+header .list .ullist .lilist a.orderbtn:visited{color:#000;}
+
+/* BUTTON ORDER NOW */
+header .allforheader .order{width:50%;}
+header .allforheader .order a.btnorder{
+    float: right;
+    margin: 17px 0;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #ffffff;
+    transition:color, background-color 0.5s;
+}
+header .allforheader .order a.btnorder:visited{
+    color: #ffffff;
+}
+header .allforheader .order a.btnorder:hover{
+    background-color: #BFBFBF;
+    border: 2px solid #BFBFBF;
+    color:#000000;
+}
+/***************/
+
+@media /* HOME */ (max-width:1200px){
+    header .list .ullist .lilist a:link{
+        padding: 29px 15px;
+    }
+}
+@media (max-width:1000px){
+    header{
+        background-color: #202020;
+    }
+    header .allforheader .order{display: none;}
+    header .list{
+        background-color: #202020;
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        left:0;
+        max-height: 0;
+        overflow: hidden;
+        z-index: 1;
+        transition: 0.3s;
+    }
+    header .list .ullist .lilist a:link {
+        padding: 15px 20px;
+        display: block;
+    }
+    header .list .ullist .lilist{
+        margin: 0;
+    }
+    header .navbar{
+        display: block;
+    }
+    /***/
+    header .navbar .close{
+        display: none;
+    }
+    header .list-open{
+        max-height:280px;
+    }
+    /***/
+    header .list .ullist{
+        display: block;
+        height:280px;
+    }
+    header .list .ullist .lilist a.orderbtn{
+        border-radius: 20px;
+        width: 120px;
+        margin-top: 10px;
+        margin-left:20px;
+        padding: 11px;
+        text-align: center;
+        font-size: 15px;
+        color: #000;
+        background-color: #fff;
+    }
+}

@@ -1,14 +1,11 @@
 # Group 1
-User-agent: Googlebot
-Disallow: /404.html
-Disallow: /img
-Allow: /
-# Group 2
 User-agent: *
 Allow: /
-Disallow: /404.html
+Disallow: /error
 Disallow: /img
-
+Disallow: /abouteme.html
+Disallow: /contact.html
+Disallow:/soon.html
 # Group 3
 User-agent: Googlebot-Image
 Disallow: /

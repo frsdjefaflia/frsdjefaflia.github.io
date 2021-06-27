@@ -2,12 +2,18 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- FOR LINK - CSS & FONT -->
-<link href="img/favicon.ico" rel="icon" type="img/png">
 <title>FrsCodes About me</title>
+
+<!-- FOR LINK - CSS & FONT -->
+<script src="https://kit.fontawesome.com/1a4bb73a43.js" crossorigin="anonymous"></script>
+<link href="img/favicon.ico" rel="icon" type="img/png">
+<link href="css/header.css" rel="stylesheet" type="text/css">
 <link href="css/aboutme.css" rel="stylesheet" type="text/css">
-<link href="css/media.css" rel="stylesheet" type="text/css">
+
+<!-- RESPONSIVE -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/media/media-home.css" rel="stylesheet" type="text/css">
+
 <!--FONT-->
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
 <!-- font-family: 'Nunito', sans-serif; -->
@@ -22,43 +28,35 @@
 
 </head>
 <body>
-     <!--START HEADER-->
+    <!--START HEADER-->
     <header>
-        <section id="allforheader">
+        <section class="allforheader">
             <!--LOGO FOR HEADER-->
-            <div class="suglogo">
+            <div class="name-logo">
                 <a href="index.html"><img src="img/logo.png" alt="logo"></a>
             </div>
             <!--NAVBAR img for responsive-->
-            <div class="navbar" id="navbar">
-                <img id="open" src="img/icons/menu.png">
-                <img id="close" src="img/icons/close.png">
+            <div class="navbar">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times close"></i>
             </div>
             <!--THE LIST-->
-            <div class="list" id="list">
+            <div class="list">
                 <ul class="ullist">
-                    <li class="lilist"><a class="lnklst" href="index.html">Home</a></li>
-                    <li class="lilist"><a class="lnklst" href="soon.html">About Me</a></li>
-                    <!--DROP LIST-->
-                    <li class="lilist downlist">
-                        <a class="mysrvc" href="soon.html">My Services<!--<img src="img/icons/down.png" alt="down">--></a>
-                        <!--<ul class="ullistdown">
-                            <li class="lilistdown"><a class="prosite" href="#">Programming sites</a></li>
-                            <li class="lilistdown"><a class="sectest" href="#">Site Security Test</a></li>
-                            <li class="lilistdown"><a class="desilogo" href="#">Logo design</a></li>
-                        </ul>-->
-                    </li>
-                    <li class="lilist"><a class="lnklst" href="soon.html">Support me</a></li>
-                    <li class="lilist"><a class=" orderbtn lnklst " href="soon.html">Order Now</a></li>
-                    <!--END DROP LIST-->
+                    <li class="lilist"><a class="lnklst" href="https://frscodes.github.io/index">Home</a></li>
+                    <li class="lilist"><a class="lnklst" href="https://frscodes.github.io/soon">About Me</a></li>
+                    <li class="lilist"><a class="lnklst" href="https://frscodes.github.io/soon">My Services</a></li>
+                    <!-- BUTTON: ORDER NOW-->
+                    <li class="lilist"><a class="orderbtn" href="https://frscodes.github.io/soon">Order Now</a></li>
                 </ul>
             </div>
             <!--BUTTON FOR ORDER-->
             <div class="order">
-                <a class="btnorder" href="soon.html">Order Now</a>
+                <a class="btnorder" href="https://frscodes.github.io/soon">Order Now</a>
             </div>
         </section>
     </header>
+    <!-- END HEADER -->
     <!-- START MAIN -->
     <main>
         <!--START LIST-->

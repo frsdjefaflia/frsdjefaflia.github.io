@@ -23,17 +23,18 @@
     header{
         background-color: #202020;
     }
-    header #allforheader .order{display: none;}
+    header .allforheader .order{display: none;}
     header .list{
         background-color: #202020;
         display: block;
         position: absolute;
         width: 100%;
         top: 80px;
-        left:-100%;
-        height: auto;
+        left:0;
+        max-height: 0;
+        overflow: hidden;
         z-index: 1;
-        transition: 0.4s;
+        transition: 0.3s;
     }
     header .list .ullist .lilist a:link {
         padding: 15px 20px;
@@ -42,15 +43,20 @@
     header .list .ullist .lilist{
         margin: 0;
     }
-    /*header .navbar:focus ~ .list{
-        left:0;
-    }*/
     header .navbar{
         display: block;
     }
+    /***/
+    header .navbar .close{
+        display: none;
+    }
+    header .list-open{
+        max-height:280px;
+    }
+    /***/
     header .list .ullist{
-       display: block;
-       height:280px;
+        display: block;
+        height:280px;
     }
     header .list .ullist .lilist a.orderbtn{
         border-radius: 20px;
@@ -63,68 +69,52 @@
         color: #000;
         background-color: #fff;
     }
-    
-    main #boxall{
+    main .boxall{
         width:55%;
         height:30%;
     }
-    main #boxall .socialmedia .singlesocial{
+    main .boxall .socialmedia .singlesocial{
         height:37px;
     }
-    main #boxall .socialmedia .singlesocial img{
+    main .boxall .socialmedia .singlesocial img{
         width:17px;
     }
-    /*header .list .ullistdown .lilistdown a:link{
-        display: block;
-    }
-    header .list .ullistdown{
-        width: 100%;
-        margin-top:0px;
-    }
-    header .list .ullistdown .lilistdown{
-        margin-top: 0;
-    }
-
-    /*
-    header .ullist .mysrvc:hover ~ .ullistdown{
-        height:0px;
-    }
-    header .ullist .mysrvc:focus ~ .ullistdown{
-        height:200px;
-    }
-    */
-    /* ABOUT ME */
-    /*main .list_about{
-        transform: scale(0.7);
-        position: fixed;
-        bottom: 0;
-        right: 20px;
-    }
-    main .list_about .boxtitle:hover{width:60px;}*/
 }
 @media (max-width:700px){
     /* footer */
-    footer #boxfooter{
+    footer .boxfooter{
         display: block;
     }
-    #boxfooter .bzns_contact li{
+    .boxfooter .bzns-contact li{
         margin-left: 0;
         margin-right: 25px;
         text-decoration: underline;
     }
-    #boxfooter .bzns_contact ul{
+    .boxfooter .bzns-contact ul{
         margin: 0;
         margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
-    #boxfooter .bzns_contact .version{
+    .boxfooter .bzns-contact .version{
         text-decoration: none;
         float: right;
         top: 2px;
         left:0;
         margin: 0;
     }
-    #boxfooter .bzns_contact .version:hover{
+    .boxfooter .bzns-contact .version:hover{
         background-color:transparent;
         color: #8f8f8f;
     }
+}
+@media (max-width:360px){
+    .boxfooter .bzns-contact ul{
+        flex-wrap: wrap;
+    }
+    .boxfooter .bzns-contact a.bzns:link, a.contactme:link{
+        font-size:10px;
+    }
+
 }

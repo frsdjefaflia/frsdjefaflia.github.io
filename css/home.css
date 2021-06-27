@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+*{
+    font-family: 'Nunito', sans-serif;
+    padding: 0px; 
+    margin: 0px; 
+    box-sizing: border-box; 
+    text-decoration: none; 
+    list-style: none; 
+    -webkit-tap-highlight-color:transparent;
+}
+
+
+/************************/
+body{
+    /*background-image: url(../img/background.png);*/
+    background-color: #100d0d;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    position: fixed;
+}
+/**********************/
+
+/* MAIN */
+main{
+    width:100%;
+    max-width:1920px;
+    height:100%;
+    margin: 0 auto;
+}
+/* FOR LOGO */
+main .boxall{
+    position:absolute;
+    margin: auto;
+    width: 500px;
+    max-height:273px;
+    left:0; right: 0; top:0; bottom:0;
+}
+main .boxall .logo img{
+    width:100%;
+}
+/* SOCIAL MEDIA */
+main .boxall .socialmedia{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+main .boxall .socialmedia .singlesocial{
+    height: 45px;
+    background-color:#202020;
+    padding: 10px;
+    border-radius: 10px;
+    transition:background-color 0.5s;
+}
+main .boxall .socialmedia .singlesocial:hover{
+    background-color: #303030;
+}
+main .boxall .socialmedia .singlesocial img{
+    width:25px;
+}
+/* FOOTER */
+footer{
+    margin: 0 auto;
+    width: 100%;
+    max-width:1920px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+footer .boxfooter{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.boxfooter .cop{
+    padding: 7px 0;
+    color: #ffffff;
+    font-size: 13px;
+}
+/* COPYRIGHT LINK */
+.boxfooter .cop .copyright{color: #ffffff;}
+.boxfooter .cop .copyright:hover{text-decoration: underline;}
+.boxfooter .cop .copyright:visited{color: #ffffff;}
+/************/
+.boxfooter .bzns-contact ul{
+    margin: 3px 0;
+}
+.boxfooter .bzns-contact li{
+    display: inline;
+    margin-left:7px;
+}
+.boxfooter .bzns-contact a.bzns:link, a.contactme:link{
+    color:#e7e7e7;
+    font-size: 13px;
+}
+
+.boxfooter .bzns-contact a.bzns:visited, a.contactme:visited{color: #e7e7e7;}
+.boxfooter .bzns-contact a.bzns:hover, a.contactme:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.boxfooter .bzns-contact .version{
+    color: #8f8f8f;
+    border:solid 1px #8f8f8f;
+    border-radius:3px;
+    padding:1px 2px;
+    font-size:9px;
+    position: relative;
+    bottom:3px;
+    left:3px;
+    transition:all 0.3s;
+    display: inline-block;
+}
+.boxfooter .bzns-contact .version:hover{
+    background-color: #ffffff; 
+    border:solid 1px #fff;
+    color: #000;
+}
+.boxfooter .bzns-contact .version a:visited{color: #fff;}

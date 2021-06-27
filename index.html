@@ -1,94 +1,109 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>FrsCodes</title>
+    <meta charset="utf-8">
+    <title>FrsCodes</title>
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="FrsCodes">
+    <meta name="description" content="Full stack web developer and (UX / UI) with info security">
 
-<!-- JS -->
-<script src="js/hdrscript.js"></script>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://frscodes.github.io/">
+    <meta property="og:title" content="FrsCodes">
+    <meta property="og:description" content="Full stack web developer and (UX / UI) with info security">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
-<!-- CSS & FAVICON -->
-<link href="img/favicon.ico" rel="icon" type="img/png">
-<link href="css/style.css" rel="stylesheet" type="text/css">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://frscodes.github.io/">
+    <meta property="twitter:title" content="FrsCodes">
+    <meta property="twitter:description" content="Full stack web developer and (UX / UI) with info security">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    
+    <!-- JS -->
+    <script>
+        window.onload = function(){
+            document.body.style.backgroundImage = "url('img/background.png')";
+    };
+    </script>
 
-<!-- RESPONSIVE -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="css/media.css" rel="stylesheet" type="text/css">
+
+    <!-- CSS & FAVICON -->
+    <link href="css/header.css" rel="stylesheet" type="text/css">
+    <link href="css/home.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/1a4bb73a43.js" crossorigin="anonymous"></script>
+    <link href="img/favicon.ico" rel="icon" type="img/png">
+    
+    <!-- RESPONSIVE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/media/media-home.css" rel="stylesheet" type="text/css">
 
 
-<!--FONTS-->
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
-<!-- font-family: 'Nunito', sans-serif; -->
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <!-- font-family: 'Nunito', sans-serif; -->
 
-<!-- google console -->
-<meta name="google-site-verification" content="qpnfAgryYzguxA-S1ZrL4PRq1_WyOnD4EXRTS7S8t2A" />
+    <!-- google console -->
+    <meta name="google-site-verification" content="qpnfAgryYzguxA-S1ZrL4PRq1_WyOnD4EXRTS7S8t2A" />
 
- <!-- COLOR FOR HEADER BAR -->
-<!-- Chrome, Firefox OS and Opera -->
-<meta name="theme-color" content="#202020">
-<!-- Windows Phone -->
-<meta name="msapplication-navbutton-color" content="#202020">
-<!-- iOS Safari -->
-<meta name="apple-mobile-web-app-status-bar-style" content="#202020">
- 
- <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H3RS57QZH9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- COLOR FOR HEADER BAR -->
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#202020">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#202020">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#202020">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H3RS57QZH9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-  gtag('config', 'G-H3RS57QZH9');
-</script>
- 
- <!-- FACEBOOK - Meta-tag Verification -->
- <meta name="facebook-domain-verification" content="delxleccauuw4uj81zuxfo0b5npc24" />
- 
+        gtag('config', 'G-H3RS57QZH9');
+    </script>
+    
+    <!-- FACEBOOK - Meta-tag Verification -->
+    <meta name="facebook-domain-verification" content="delxleccauuw4uj81zuxfo0b5npc24" />
+    
 </head>
 <body>
-   <div id="all">
-        <!--START HEADER-->
+    <!--START HEADER-->
     <header>
-        <section id="allforheader">
+        <section class="allforheader">
             <!--LOGO FOR HEADER-->
-            <div class="suglogo">
+            <div class="name-logo">
                 <a href="index.html"><img src="img/logo.png" alt="logo"></a>
             </div>
             <!--NAVBAR img for responsive-->
-            <div class="navbar" id="navbar">
-                <img id="open" src="img/icons/menu.png">
-                <img id="close" src="img/icons/close.png">
+            <div class="navbar">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times close"></i>
             </div>
             <!--THE LIST-->
-            <div class="list" id="list">
+            <div class="list">
                 <ul class="ullist">
-                    <li class="lilist"><a class="lnklst" href="index.html">Home</a></li>
-                    <li class="lilist"><a class="lnklst" href="soon.html">About Me</a></li>
-                    <!--DROP LIST-->
-                    <li class="lilist downlist">
-                        <a class="mysrvc" href="soon.html">My Services<!--<img src="img/icons/down.png" alt="down">--></a>
-                        <!--<ul class="ullistdown">
-                            <li class="lilistdown"><a class="prosite" href="#">Programming sites</a></li>
-                            <li class="lilistdown"><a class="sectest" href="#">Site Security Test</a></li>
-                            <li class="lilistdown"><a class="desilogo" href="#">Logo design</a></li>
-                        </ul>-->
-                    </li>
-                    <li class="lilist"><a class="lnklst" href="soon.html">Portfolio</a></li>
-                    <li class="lilist"><a class=" orderbtn lnklst " href="soon.html">Order Now</a></li>
-                    <!--END DROP LIST-->
+                    <li class="lilist"><a class="lnklst" href="https://frscodes.github.io/index">Home</a></li>
+                    <li class="lilist"><a class="lnklst" href="https://frscodes.github.io/soon">About Me</a></li>
+                    <li class="lilist"><a class="lnklst" href="https://frscodes.github.io/soon">My Services</a></li>
+                    <li class="lilist"><a class="lnklst" href="https://frscodes.github.io/soon">Portfolio</a></li>
+                    <!-- BUTTON: ORDER NOW-->
+                    <li class="lilist"><a class="orderbtn" href="https://frscodes.github.io/soon">Order Now</a></li>
                 </ul>
             </div>
             <!--BUTTON FOR ORDER-->
             <div class="order">
-                <a class="btnorder" href="soon.html">Order Now</a>
+                <a class="btnorder" href="https://frscodes.github.io/soon">Order Now</a>
             </div>
         </section>
     </header>
-    
+    <!-- END HEADER -->
 
     <!--START MAIN-->
     <main>
-        <section id="boxall">
+        <section class="boxall">
             <!--THE BIG LOGO-->
             <div class="logo">
                 <img src="img/LOGO_FARES.png" alt="logo">
@@ -117,24 +132,22 @@
 
     <!--START FOOTER-->
     <footer>
-        <section id="boxfooter">
+        <section class="boxfooter">
             <!--COPYRIGHT-->
             <div class="cop">
                 <p>All Rights Reserved - <a href="https://frscodes.github.io/copyright/" class="copyright">FrsCodes 2021 ©</a></p>
             </div>
             <!--CONTACT AND BUSINESS-->
-            <div class="bzns_contact">
+            <div class="bzns-contact">
                 <ul>
-                    <li><a class="bzns" href="soon.html">Business Policy</a></li>
-                    <li><a class="contactme" href="soon.html">Support Me</a></li>
+                    <li><a class="bzns" href="https://frscodes.github.io/soon">Business Policy</a></li>
+                    <li><a class="contactme" href="https://frscodes.github.io/soon">Support Me</a></li>
                     <li><a class="contactme" href="contact.html">Contact Me</a></li>
-                    <a href="https://github.com/frscodes/frscodes.github.io" target="_blank"><p class="version">V2</p></a>
+                    <a href="https://github.com/frscodes/frscodes.github.io" target="_blank"><p class="version">V3</p></a>
                 </ul>
             </div>
         </section>
     </footer>
-   </div>
-    
     <script src="js/script.js"></script>
 </body>
 </html>
