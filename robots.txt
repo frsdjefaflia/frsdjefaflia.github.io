@@ -6,6 +6,9 @@ Disallow: /img
 Disallow: /abouteme.html
 Disallow: /contact.html
 Disallow:/soon.html
+Disallow: /abouteme
+Disallow: /contact
+Disallow:/soon
 # Group 3
 User-agent: Googlebot-Image
 Disallow: /
