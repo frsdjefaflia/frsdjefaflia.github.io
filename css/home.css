@@ -57,6 +57,7 @@ main .boxall .socialmedia .singlesocial{
 }
 main .boxall .socialmedia .singlesocial:hover{
     background-color: #303030;
+    box-shadow: -1px -1px 4px #69b3fc, 1px 1px 4px #e55193;
 }
 main .boxall .socialmedia .singlesocial img{
     width:25px;

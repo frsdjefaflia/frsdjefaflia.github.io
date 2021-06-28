@@ -85,6 +85,7 @@ header .allforheader .order a.btnorder:hover{
     background-color: #BFBFBF;
     border: 2px solid #BFBFBF;
     color:#000000;
+    box-shadow: -2px -2px 4px #69b3fc, 2px 2px 4px #e55193;
 }
 /***************/
 
@@ -108,7 +109,8 @@ header .allforheader .order a.btnorder:hover{
         max-height: 0;
         overflow: hidden;
         z-index: 1;
-        transition: 0.3s;
+        transition: 0.1s;
+        transition-timing-function: linear;
     }
     header .list .ullist .lilist a:link {
         padding: 15px 20px;
@@ -116,6 +118,9 @@ header .allforheader .order a.btnorder:hover{
     }
     header .list .ullist .lilist{
         margin: 0;
+    }
+    header .list .ullist .respobtn{
+        padding: 20px;
     }
     header .navbar{
         display: block;
@@ -125,22 +130,21 @@ header .allforheader .order a.btnorder:hover{
         display: none;
     }
     header .list-open{
-        max-height:280px;
+        max-height:300px;
     }
     /***/
     header .list .ullist{
         display: block;
-        height:280px;
+        text-align: center;
     }
     header .list .ullist .lilist a.orderbtn{
         border-radius: 20px;
-        width: 120px;
-        margin-top: 10px;
-        margin-left:20px;
         padding: 11px;
         text-align: center;
         font-size: 15px;
         color: #000;
         background-color: #fff;
+        width: 100%;
+        margin: 0 auto;
     }
 }

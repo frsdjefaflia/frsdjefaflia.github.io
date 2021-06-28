@@ -57,4 +57,5 @@ main section a{
 main section a:hover{
     color: #100d0d;
     background-color: #fff;
+    box-shadow: -2px -2px 4px #69b3fc, 2px 2px 4px #e55193;
 }
